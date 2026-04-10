@@ -2,6 +2,8 @@
 
 A sophisticated, static multi-page website designed to guide students through structured English practice sessions using ChatGPT. The site features an elegant "Editorial/Academic" aesthetic with clear typography and easy-to-use prompt copy functionality.
 
+**📍 Live Site:** [https://geomingical.github.io/EGU_student/](https://geomingical.github.io/EGU_student/)
+
 ## Project Overview
 
 This site provides structured guidance on leveraging GPT for English language learning across four main phases:
