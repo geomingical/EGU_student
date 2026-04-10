@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 1: 素材輸入與草稿生成 | EGU GPT Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">EGU Practice</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="topic-1.html" class="active">Topic 1</a></li>
+                <li><a href="topic-2.html">Topic 2</a></li>
+                <li><a href="topic-3.html">Topic 3</a></li>
+                <li><a href="topic-4.html">Topic 4</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="page-header reveal">
+            <div class="topic-meta">Topic 1</div>
+            <h1>素材輸入與草稿生成</h1>
+            <p class="text-muted">Material Input & Script Generation</p>
+        </header>
+
+        <section class="reveal">
+            <h2 class="section-title"><span class="section-number">1.1</span> 準備您的講稿</h2>
+            <p class="instruction-block">在開始口說練習之前，我們需要準備一份講稿。您不需要自己寫出完美的英文，只需將您的想法、經歷或中文重點提示提供給 AI，並使用下方指令讓 AI 幫您生成自然且專業的英文口說草稿，同時為您整理出核心單字表。</p>
+            
+            <div class="prompt-card">
+                <div class="prompt-header">
+                    <span class="prompt-label">Prompt 1: Script Generation</span>
+                    <button type="button" class="btn-copy" onclick="copyPrompt('prompt-1')" aria-label="Copy Prompt">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><title>Copy Icon</title><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                        <span>Copy Prompt</span>
+                    </button>
+                </div>
+                <div class="prompt-content" id="prompt-1">I want to practice speaking about a specific topic. Here are some bullet points about my experience/topic in Chinese: 
+[在此貼上您的中文重點提示]
+
+Please generate a natural, professional spoken English script for me to practice. Keep the vocabulary accessible but professional. Also, provide a list of 5-8 key vocabulary words or phrases used in the script with their Chinese definitions and pronunciation guides.</div>
+            </div>
+            
+            <p class="instruction-block"><strong>使用提示：</strong>請將上方 <code>[在此貼上您的中文重點提示]</code> 替換為您自己的內容，例如：「我是一位擁有三年經驗的行銷企劃」、「我負責過千萬級別的專案」、「我希望能強調我的跨部門溝通能力」。</p>
+        </section>
+
+        <nav class="topic-nav reveal">
+            <a href="index.html" class="nav-btn nav-btn-prev">Home</a>
+            <a href="topic-2.html" class="nav-btn nav-btn-next">Next: Topic 2</a>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 EGU GPT English Practice Guide. Design for Learning.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

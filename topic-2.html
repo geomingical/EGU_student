@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 2: 語音朗讀練習 | EGU GPT Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">EGU Practice</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="topic-1.html">Topic 1</a></li>
+                <li><a href="topic-2.html" class="active">Topic 2</a></li>
+                <li><a href="topic-3.html">Topic 3</a></li>
+                <li><a href="topic-4.html">Topic 4</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="page-header reveal">
+            <div class="topic-meta">Topic 2</div>
+            <h1>語音朗讀練習</h1>
+            <p class="text-muted">Voice-Based Script Practice</p>
+        </header>
+
+        <section class="reveal">
+            <h2 class="section-title"><span class="section-number">2.1</span> 建立開口自信</h2>
+            <p class="instruction-block">有了講稿後，請開啟 ChatGPT APP 的「語音對話」功能（Voice Mode）。這個階段的重點在於「流暢度與自信」，而不是追求完美。因此，我們需要給予 AI 特定的指令，要求它「不要過度糾正」，只要給予最少量的建議即可，讓您能專注在口語表達的節奏上。</p>
+            
+            <div class="prompt-card">
+                <div class="prompt-header">
+                    <span class="prompt-label">Prompt 2: Minimal Interruption Practice</span>
+                    <button type="button" class="btn-copy" onclick="copyPrompt('prompt-2')" aria-label="Copy Prompt">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><title>Copy Icon</title><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                        <span>Copy Prompt</span>
+                    </button>
+                </div>
+                <div class="prompt-content" id="prompt-2">I am going to practice reading my script out loud. My goal right now is fluency and building confidence, not perfection.
+
+Please listen to me read. When I finish, just say "Great job!" and provide ONLY 1 or 2 minor, encouraging suggestions for improvement (like one pronunciation tweak or one pacing tip). Do not point out every single mistake. Please keep your feedback extremely brief and supportive. Let me know when you're ready for me to start.</div>
+            </div>
+            
+            <p class="instruction-block"><strong>使用提示：</strong>在 AI 回覆準備好之後，請直接對著手機麥克風朗讀您在 Topic 1 生成的英文講稿。如果遇到卡頓，請深呼吸繼續，不要在意小錯誤。</p>
+        </section>
+
+        <nav class="topic-nav reveal">
+            <a href="topic-1.html" class="nav-btn nav-btn-prev">Prev: Topic 1</a>
+            <a href="topic-3.html" class="nav-btn nav-btn-next">Next: Topic 3</a>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 EGU GPT English Practice Guide. Design for Learning.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
